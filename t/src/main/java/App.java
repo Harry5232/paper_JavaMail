@@ -6,6 +6,7 @@ import javax.mail.internet.*;
 import java.io.UnsupportedEncodingException;
 import java.util.*;
 
+//±H°e¯Â¤å¦remail
 public class App {
 	public static void main(String[] args) {
 		Properties props = new Properties();
@@ -13,7 +14,7 @@ public class App {
 		MimeMessage msg = new MimeMessage(session);
 		Transport t = null;
 		try {
-			Address bill = new InternetAddress("god@microsoft.com",
+			Address bill = new InternetAddress("wayne19911126@gmail.com",
 					"Harry Yen");
 			Address elliotte = new InternetAddress("harry5232@gmail.com");
 			msg.setText("Nice to meet you!");

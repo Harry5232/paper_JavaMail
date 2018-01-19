@@ -24,13 +24,13 @@ dependencies {
 	compile 'com.google.guava:guava:23.0'
 	compile group: 'com.sun.mail', name: 'javax.mail', version:'1.6.0'
 	compile gradleApi()
-	
+	compile files('jxl.jar')
 	// Use JUnit test framework
 	testCompile 'junit:junit:4.12'
 }
 
 // Define the main class for the application
-mainClassName = 'App4'
+mainClassName = 'EmailSender'
 run {
 	//	 if (project.hasProperty("appArgs")) {
 	//        args Eval.me(appArgs)
